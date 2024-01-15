@@ -37,31 +37,13 @@ const Navbar = () => {
                     <div className="relative flex h-12 sm:h-20 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
 
-                            <div className="flex flex-row flex-shrink-0 items-center border-right">
+                            <div className="flex flex-row flex-shrink-0 items-center">
                                 <Image src="/images/aboutus/logo.png" alt="Logo" width="48" height="48" className='m-4' />
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
                                     DailyPe
                                 </Link>
                             </div>
 
-                            <div className="hidden lg:flex items-center border-right ">
-                                <div className="flex justify-end space-x-4">
-                                    {navigation.map((item) => (
-                                        <Link
-                                            key={item.name}
-                                            href={item.href}
-                                            className={classNames(
-                                                item.current ? 'bg-gray-900' : 'navlinks hover:text-black',
-                                                'px-3 py-4 rounded-md text-lg font-normal'
-                                            )}
-                                            aria-current={item.href ? 'page' : undefined}
-                                        >
-                                            {item.name}
-                                        </Link>
-                                    ))}
-                                </div>
-
-                            </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <Contactusform />
                         </div>
