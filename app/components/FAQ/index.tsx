@@ -20,8 +20,7 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Craven omni memoria patriae zombieland clairvius narcisse <br /> religionis
-                                    sunt diri undead historiarum. Golums, zombies unrelenting <br /> et Raimi fascinati beheading.
+                                    Yes! We strive to enhance our client businesses with our expert design and development services.
                                 </Disclosure.Panel>
                             </>
                         )}
@@ -40,8 +39,7 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Craven omni memoria patriae zombieland clairvius narcisse <br /> religionis
-                                    sunt diri undead historiarum. Golums, zombies unrelenting <br /> et Raimi fascinati beheading.
+                                Yes! We strive to enhance our client businesses with our expert design and development services.
                                 </Disclosure.Panel>
                             </>
                         )}
@@ -60,8 +58,7 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Craven omni memoria patriae zombieland clairvius narcisse <br /> religionis
-                                    sunt diri undead historiarum. Golums, zombies unrelenting <br /> et Raimi fascinati beheading.
+                                    We are located in Marathalli, Bengaluru! The startup capital of India!
                                 </Disclosure.Panel>
                             </>
                         )}
